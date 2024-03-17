@@ -1,0 +1,27 @@
+version: "3.9"
+services:
+  ir_project:
+    build: .
+    platform: linux/arm64
+
+    # stdin_open: true # docker run -i
+    # tty: true # docker run -t
+    ports:
+      - 8999:8999
+      
+    volumes:
+      - ./:/home/thesis_eda_user
+
+    networks:
+      ir_network:
+        ipv4_address: 172.13.8.3
+
+
+
+networks:
+  ir_network:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.13.8.0/24
