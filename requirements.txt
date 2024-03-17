@@ -1,4 +1,7 @@
 numpy
 pandas
 fiftyone
+pycocotools
+matplotlib
+scikit-image
 jupyterlab
