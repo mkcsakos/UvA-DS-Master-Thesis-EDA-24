@@ -1,6 +1,13 @@
 # UvA-DS-Master-Thesis-EDA-24
 
-This repository contains an exploratory data analysis of the MS COCO (2017) dataset.
+Copyright (c) 2024, Ákos Makács
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. 
+
+
+**This repository contains an exploratory data analysis of the MS COCO (2017) dataset.**
 
 
 ## References:
